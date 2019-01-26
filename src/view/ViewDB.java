@@ -241,10 +241,6 @@ class ViewDBFrame extends JFrame
       String username = props.getProperty("jdbc.username");
       String password = props.getProperty("jdbc.password");
       
-//      String url = "jdbc:mysql://172.16.200.108:3306/alan";
-//      String username = "alan";
-//      String password = "aj";
-
       return DriverManager.getConnection(url, username, password);
    }
 }
